@@ -14,11 +14,12 @@ Feedback Mechanism: Dynamic adjustments based on user input
 Metrics: Average scores for LLM models, database performance, and memory usage
 
 Snapshots: 
-<img width="1157" alt="Screenshot 2024-02-02 201501" src="https://github.com/nirbhay221/Generative-AI-PDF-Extractor/assets/70895011/12afa9bf-6275-4260-97b3-b4dcc8f4510e">
-<img width="805" alt="Screenshot 2024-02-02 202313" src="https://github.com/nirbhay221/Generative-AI-PDF-Extractor/assets/70895011/ed0b035c-46c2-4ed9-b296-6c9948a94407">
-<img width="1182" alt="Screenshot 2024-02-02 202257" src="https://github.com/nirbhay221/Generative-AI-PDF-Extractor/assets/70895011/24f6a519-d51a-408e-ae31-449a60024564">
-<img width="1185" alt="Screenshot 2024-02-02 202209" src="https://github.com/nirbhay221/Generative-AI-PDF-Extractor/assets/70895011/11ea02da-a997-4324-a53b-eea89b824af9">
-<img width="1225" alt="Screenshot 2024-02-02 202155" src="https://github.com/nirbhay221/Generative-AI-PDF-Extractor/assets/70895011/caed649a-97e0-4ec5-8992-77c529df64db">
-<img width="1193" alt="Screenshot 2024-02-02 201645" src="https://github.com/nirbhay221/Generative-AI-PDF-Extractor/assets/70895011/919d3e09-da61-4e22-abd5-08c6831e15a9">
-<img width="1190" alt="Screenshot 2024-02-02 201628" src="https://github.com/nirbhay221/Generative-AI-PDF-Extractor/assets/70895011/490091b6-7299-4ca4-9ec1-5f97a096d33e">
-<img width="1181" alt="Screenshot 2024-02-02 201605" src="https://github.com/nirbhay221/Generative-AI-PDF-Extractor/assets/70895011/e56a089f-fafb-4be6-857e-eaae500918cb">
+
+<img width="1157" alt="Screenshot 2024-02-02 201501" src="https://github.com/nirbhay221/Generative-AI-PDF-Extractor/assets/70895011/e8356e4d-af50-4098-981f-2fa11f4467d5">
+<img width="1181" alt="Screenshot 2024-02-02 201605" src="https://github.com/nirbhay221/Generative-AI-PDF-Extractor/assets/70895011/12c33bcd-d8f5-4094-a6f8-f5d8d144f0ec">
+<img width="1190" alt="Screenshot 2024-02-02 201628" src="https://github.com/nirbhay221/Generative-AI-PDF-Extractor/assets/70895011/92a00001-ef8a-4079-8407-0ec9088e73dc">
+<img width="1193" alt="Screenshot 2024-02-02 201645" src="https://github.com/nirbhay221/Generative-AI-PDF-Extractor/assets/70895011/f33cdbb5-c2ec-4629-8b51-de50a08351dd">
+<img width="1225" alt="Screenshot 2024-02-02 202155" src="https://github.com/nirbhay221/Generative-AI-PDF-Extractor/assets/70895011/15f53def-57c9-442d-bd29-7b01e28f44f4">
+<img width="1185" alt="Screenshot 2024-02-02 202209" src="https://github.com/nirbhay221/Generative-AI-PDF-Extractor/assets/70895011/ab7d8568-1c0f-4657-b97f-61bccc47742b">
+<img width="1182" alt="Screenshot 2024-02-02 202257" src="https://github.com/nirbhay221/Generative-AI-PDF-Extractor/assets/70895011/abd5c1c0-f85d-48bd-b5a7-2806c32138ae">
+<img width="805" alt="Screenshot 2024-02-02 202313" src="https://github.com/nirbhay221/Generative-AI-PDF-Extractor/assets/70895011/e7c72505-8154-449f-86ad-a7a0c0d5d6a4">
