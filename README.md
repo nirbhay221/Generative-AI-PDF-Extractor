@@ -9,7 +9,7 @@ Insightful Metrics: DocumentHub provides valuable metrics, including average sco
 
 Tech Stack
 Languages: Python, TypeScript
-Databases: Pinecone, Redis, SQLite
+Databases: Pinecone, Redis, SQLite, SQL
 Feedback Mechanism: Dynamic adjustments based on user input
 Metrics: Average scores for LLM models, database performance, and memory usage
 
