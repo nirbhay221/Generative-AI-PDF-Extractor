@@ -1,4 +1,4 @@
- Full-stack application that combines the power of Python and TypeScript. Utilizing Pinecone, Redis, and SQLite databases, users can seamlessly upload, query, and manage PDF documents. The platform incorporates dynamic improvements driven by user feedback, enhancing the querying experience over time.
+ Full-stack application that combines the power of Python and TypeScript. Utilizing Pinecone for vector embedding, Redis for optimized Celery parallel processing, and SQL  for custom history , users can seamlessly upload, query, and manage PDF documents. The platform incorporates dynamic improvements driven by user feedback, enhancing the querying experience over time.
 
 Features
 PDF Upload and Query: Users can effortlessly upload and query PDF documents, ensuring a user-friendly experience. It also uses Langfuse for tracing the whole workflow of the following project.
