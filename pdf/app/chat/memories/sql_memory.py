@@ -1,4 +1,4 @@
-from langchain.memory import ConversationBufferMemory
+from langchain_classic.memory import ConversationBufferMemory
 from app.chat.memories.histories.sql_history import SqlMessageHistory
 
 

@@ -1,5 +1,5 @@
-from langchain.document_loaders import PyPDFLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_community.document_loaders import PyPDFLoader
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 import sys
 import io
 from app.chat.vector_stores.pinecone import vector_stores

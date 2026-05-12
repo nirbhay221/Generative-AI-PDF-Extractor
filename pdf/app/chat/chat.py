@@ -1,5 +1,5 @@
 import random
-from langchain.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from app.chat.models import ChatArgs
 from app.chat.vector_stores import retriever_map
 from app.chat.llms import llm_map
@@ -59,5 +59,5 @@ def build_chat(chat_args: ChatArgs):
         condense_question_llm=condense_question_llm,
         memory=memory,
         retriever=retriever,
-        metadata=chat_args.metadata
+        metadata=chat_args.metadata.model_dump()
     )
