@@ -7,11 +7,8 @@ from app.web.config import Config
 
 def upload(local_file_path: str) -> Tuple[Dict[str, str], int]:
     upload_url = f"{Config.UPLOAD_URL}/upload"
-    import logging
-    logging.warning(f"[DEBUG] Uploading to {upload_url}, file={local_file_path}")
     with open(local_file_path, "rb") as f:
         response = requests.post(upload_url, files={"file": f})
-    logging.warning(f"[DEBUG] Response status={response.status_code} text={repr(response.text)}")
     return json.loads(response.text), response.status_code
 
 

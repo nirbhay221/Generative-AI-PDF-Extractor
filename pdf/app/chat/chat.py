@@ -50,7 +50,6 @@ def build_chat(chat_args: ChatArgs):
         retriever=retriever_name,
         memory=memory_name
     )
-    
 
     condense_question_llm = ChatOpenAI(streaming=False)
 
