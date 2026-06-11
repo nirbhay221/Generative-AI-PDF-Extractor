@@ -3,11 +3,16 @@ from app.chat.embeddings.openai import embeddings
 from pinecone import Pinecone as PineconeClient
 import os
 
-_pc = PineconeClient(api_key=os.getenv("PINECONE_API_KEY"))
-_index = _pc.Index(os.getenv("PINECONE_INDEX_NAME"))
+_vector_store = None
 
-vector_stores = PineconeVectorStore(index=_index, embedding=embeddings)
+def _get_vector_store():
+    global _vector_store
+    if _vector_store is None:
+        pc = PineconeClient(api_key=os.getenv("PINECONE_API_KEY"))
+        index = pc.Index(os.getenv("PINECONE_INDEX_NAME"))
+        _vector_store = PineconeVectorStore(index=index, embedding=embeddings)
+    return _vector_store
 
 def build_retriever(chat_args, k):
     search_kwargs = {"filter": {"pdf_id": chat_args.pdf_id}, "k": k}
-    return vector_stores.as_retriever(search_kwargs=search_kwargs)
+    return _get_vector_store().as_retriever(search_kwargs=search_kwargs)

@@ -18,7 +18,7 @@ def get_messages_by_conversation_id(
     messages = (
         db.session.query(Message)
         .filter_by(conversation_id=conversation_id)
-        .order_by(Message.created_on.desc())
+        .order_by(Message.created_on.asc())
     )
     return [message.as_lc_message() for message in messages]
 

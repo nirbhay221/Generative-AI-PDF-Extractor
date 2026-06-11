@@ -2,7 +2,7 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import sys
 import io
-from app.chat.vector_stores.pinecone import vector_stores
+from app.chat.vector_stores.pinecone import _get_vector_store
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding = 'utf-8')
 def create_embeddings_for_pdf(pdf_id: str, pdf_path: str):
@@ -18,4 +18,4 @@ def create_embeddings_for_pdf(pdf_id: str, pdf_path: str):
             "text": doc.page_content,
             "pdf_id": pdf_id
         }
-    vector_stores.add_documents(docs)
+    _get_vector_store().add_documents(docs)
